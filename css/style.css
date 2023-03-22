@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #E0FFFF;
+    font-family: 'Roboto', sans-serif; 
+}  
+
+header img{
+    width: 1400px;
+    height: 350px;
+}
+
+ header h1{
+    text-align: center; 
+    font-size: 100px;
+
+ }   
+
+section1 h2{
+    background-color: #F0E68C;
+    color: #000000;  
+}
+
+section3 h2{
+    background-color: #F0E68C;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+    border: 0;
+    
+}
+
+
+section2 img{
+    display: auto;
+    margin: 10px 50px 10px 50px;
+    padding: 10px;
+    height: 250px;
+}
+
+section4 img{
+    display: auto;
+    margin: 0;
+    padding: 10px;
+    height: 400px;
+    width: 800px;
+}
+
+section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+nav {
+    background-color: #3CB371;  
+    text-align: center;     
+}
+
+nav ul{
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+.tabela{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.tabela a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.tabela a:hover {
+    border-bottom: 1px solid black;
+    background-color: #FFFF00; 
+}
+
+.contato a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contato a:hover {
+    border-bottom: 1px solid black;
+    background-color: #FFFF00; 
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+        background-color: #329FA6; 
+        text-align: center;
+        color: #00000;
+}
+
+
+@media only screen and (max-width: 321px){
+     header img{
+        width: 320px;
+     } 
+     header h1 {
+        font-size: 30px;
+     }
+     section1 h2{
+        font-size: 16px;
+        text-align: center;
+     }
+
+     section2 img{
+        width: 250px;
+     }
+     section4 img{
+        width: 300px;
+     }
+
+     section4 h2{
+        font-size: 16px;
+        text-align: center;
+     }
+
+     section4 {
+        margin-bottom:20px;
+     }
+
+     .tabela a {
+        font-size: 20px;
+     }
+}
